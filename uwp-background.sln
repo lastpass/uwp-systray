@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundProcess", "BackgroundProcess\BackgroundProcess.csproj", "{92F796DF-C173-41F2-B769-350230E8F405}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommunicationInterface", "CommunicationInterface\CommunicationInterface.shproj", "{9767FA2F-64A3-4F51-B075-7E79FA717239}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CommunicationInterface\CommunicationInterface.projitems*{92f796df-c173-41f2-b769-350230e8f405}*SharedItemsImports = 4
+		CommunicationInterface\CommunicationInterface.projitems*{9767fa2f-64a3-4f51-b075-7e79fa717239}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F796DF-C173-41F2-B769-350230E8F405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F796DF-C173-41F2-B769-350230E8F405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F796DF-C173-41F2-B769-350230E8F405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F796DF-C173-41F2-B769-350230E8F405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A5D37EC-A0DB-445C-9B64-66047ECAC108}
+	EndGlobalSection
+EndGlobal

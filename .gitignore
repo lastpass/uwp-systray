@@ -1,0 +1,17 @@
+syntax: glob
+
+*.suo
+*.user
+**/bin/*
+**/obj/*
+python2.6.exe.stackdump
+AppPackages/*
+Partner/McAfee/TestShell/bld/*
+Partner/McAfee/TestShell/bin/*
+Partner/McAfee/build/*
+Partner/McAfee/SafeKeyJS/bld/*
+build.out
+notes.txt
+fflib.cs
+win32/
+.vs

@@ -87,7 +87,7 @@ namespace BackgroundProcess
                     "Logged out from LastPass",
                     "You have either closed LastPass application or logged out. " +
                     "LastPass will continue to run  in the background, but application " +
-                    "fill won't be available unitl the next login.",
+                    "fill won't be available until the next login.",
                     ToolTipIcon.Warning);
         }
 
